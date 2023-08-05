@@ -1,0 +1,11 @@
+.img-all--events {
+    width: 40vw;
+    height: auto;
+    width: auto\9; /* IE8 */
+  }
+  
+  @media (min-width: 768px) {
+    .img-all--events {
+      width: 20vw;
+    }
+  }

@@ -1,0 +1,70 @@
+.hero-section {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background-image: url("../assets/Img/background.png");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+//////   end of hero section designing   /////////////
+
+.heroSection-card {
+    transform: translateY(-40%);
+}
+.form-control:focus {
+    // border: 0;
+    outline: none;
+    box-shadow: none;
+}
+.form-select {
+    appearance: none;
+    background-image: url("https://img.icons8.com/external-tanah-basah-basic-outline-tanah-basah/24/null/external-menu-folder-tanah-basah-basic-outline-tanah-basah.png");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 1.5em 1.5em;
+    padding-right: 2.5em;
+}
+
+.form-select::-ms-expand {
+    display: none;
+}
+
+//////////////////////  recent Events  //////////////////// ///
+.img-card--recentEvents {
+    // border-top-right-radius: 100%;
+    // border-top-left-radius: 30%;
+
+    width: 200px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    overflow: hidden;
+    border-radius: 50%;
+}
+.img-card--recentEvents img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/////////////////////////  Book Now ///////////////////////////
+.bookNow-hero-section {
+    position: relative;
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: start;
+    color: #fff;
+    background-image: url("../assets/Img/background.png");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+/////////////////////////////////////////////////
