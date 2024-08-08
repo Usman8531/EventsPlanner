@@ -1,0 +1,14 @@
+.auth-page {
+    position: relative;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background-image: url("../assets/Img/background.png");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
